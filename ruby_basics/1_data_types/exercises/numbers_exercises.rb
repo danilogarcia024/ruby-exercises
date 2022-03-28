@@ -46,16 +46,12 @@ end
 
 def even?(number)
   # return true if the number is even (hint: use integer's even? method)
-  if number.even?
-    puts "The number is even"
-  end
+  number.even? ? true : false
 end
 # even?(5)
 
 def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
-  if number.odd?
-    puts "The number is odd"
-  end
+  number.odd? ? true : false
 end
 # odd?(5)
